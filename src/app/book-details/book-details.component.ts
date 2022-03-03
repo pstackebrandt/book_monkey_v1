@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 import { Book } from "../shared/book"
+// page 124
 
 @Component({
   selector: 'bm-book-details',
@@ -10,8 +11,6 @@ import { Book } from "../shared/book"
 export class BookDetailsComponent implements OnInit {
   @Input() book!: Book;
   @Output() showListEvent = new EventEmitter<any>();
-
-  constructor() { }
 
   ngOnInit(): void {
   }

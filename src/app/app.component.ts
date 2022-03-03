@@ -1,3 +1,5 @@
+
+
 import { Component } from '@angular/core';
 import { Book } from './shared/book';
 
@@ -11,7 +13,6 @@ type ViewState = 'list' | 'details';
 export class AppComponent {
   book!: Book;
   viewState: ViewState = 'list';
-
   title = 'book-monkey';
 
   showList() {
