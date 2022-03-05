@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 
 import { Book } from './book';
 
+/** This Services provides books to the app. It will get
+ * them locally or from external. */
 @Injectable({
   providedIn: 'root'
 })
